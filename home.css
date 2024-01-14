@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+body{
+    padding: 25px;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    gap: 35px;
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+#banner-container{
+    display: flex;
+    height: 39vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner_title_container{
+    width: 50%;
+}
+.banner_image{
+    display: flex;
+    width: 50%;
+    justify-content: right;
+    padding-right: 30px;
+}
+.banner_title_container p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_title_container button{
+    padding: 11px 20px;
+    background-color: #FF6464;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+
+#post-container{
+    background-color: #EDF7FA;
+    padding: 30px;
+    border-radius: 20px;
+}
+#resume:hover{
+    background-color: green;
+}
+
+.section-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.post{
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.post h1{
+    margin-bottom: 15px;
+}
+.post p{
+    margin-top: 15px;
+}
+.s-p-container{
+    display: flex;
+    gap: 20px;
+}
